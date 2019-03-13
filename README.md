@@ -31,4 +31,4 @@ for command in commands:
 	print(stderr.read())
 ```
 
-I will update to add connec scp ASAP. 
+I will update to add connect sftp and get file to local ASAP.
