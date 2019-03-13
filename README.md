@@ -10,19 +10,19 @@ password = "your password"   # If you will use private key, you don't have fill 
 ## input your command.
 You can choice to use many or one command. 
 ### If you want to one command, you will use it.
-\'print("Executing {$",command,"}")
+'''print("Executing {$",command,"}")
 stdin , stdout, stderr = con.exec_command(command)
 print(stdout.readlines())
 print("===== Errors ======")
 print(stderr.readlines())
-\'
+'''
 
 ### If you want to many command, you will use it.
-\'for command in commands:
+'''for command in commands:
 	print("Executing {$", f"{command}", "}")
 	stdin , stdout, stderr = con.exec_command(command)
 	print(stdout.read())
 	print("===== Errors ======")
-	print(stderr.read())\'
+	print(stderr.read())'''
 
 I will update to add connec scp ASAP. 
